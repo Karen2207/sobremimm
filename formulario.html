@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Contatos</h1>
+    <hr>
+    <a href="index.html">Contato</a>
+    <hr>
+
+
+    <form action="">
+        <label for="name"><b>Digite seu nome:</b></label>
+        <input type="text" name="name" id="name"
+         placeholder="Digite seu nome aqui!" required>
+
+
+         <br><br>
+         <label for="email"><b>Digite seu email:</b></label>
+         <input type="email" name="email" id="'email"
+         placeholder="Digite seu email!" required>
+
+
+         <br><br>
+         <label for=""senha><b>Digite sua senha:</b></label>
+         <input type="senha" name="senha" id="senha"
+         placeholder="Digite sua senha!" required>
+
+
+
+
+        <br><br>
+        <h4>Marque sua profissão:</h4>
+        <input type="radio" id="profissão" name="profissão">
+        <label for="profissão">Professor</label>
+        <br>
+        <input type="radio" id="profissão" name="profissão">
+        <label for="profissão">Estudante</label>
+        <br>
+        <input type="radio" id="profissão" name="profissão">
+        <label for="profissão">Outros</label>
+
+
+        <br><br>
+        <h4>Acesso á internet</h4>
+        <input type="checkbox" id="celular" name="internet"
+        value="'Celular">
+        <label for="internet">Celular</label>
+        <br>
+        <input type="checkbox" id="bdlarga" name="internet"
+        value="'bdlarga">
+        <label for="internet">Bdlarga</label>
+        <br>
+        <input type="checkbox" id="outros" name="internet"
+        value="'outros">
+        <label for="internet">Outros</label>
+
+
+        <br><br>
+        <h4>Estado onde você mora:</h4>
+        <select name="localidade" id="local">
+            <option value="Maranhão">Maranhão</option>
+            <option value="Pará">Pará</option>
+            <option value="Piauí">Piauí</option>
+            <option value="Tocantins">Tocantins</option>
+        </select>
+
+
+        <br><br>
+        <textarea name="coment" id="coment" cols="30" rows="10"
+            placeholder="Digite aqui seu texto!">
+        </textarea>
+
+
+         <br><br>
+         <input type="submit" name="enviar" id="enviar">
+    </form>
+</body>
+</html>
