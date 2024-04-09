@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+}
+
+header {
+    padding: 20px 4%;
+    background-image: url('images/szaheader3.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  header > .interface {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 50%;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+  }
+  
+  header .meu-contato button {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 10px 40px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #000000;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .conteudo {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 4%;
+    display: flex
+    
+  }
+  
+  .descrição {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  
+  .descrição h2 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .descrição p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .foto {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    width: 90%;
+    float: left;
+    
+  }
+  
+  .foto img {
+
+    width: 100%;
+    display: block;
+    position: left;
+    max-width: 50%;
+    margin-left: auto;
+    transition: transform 0.5s ease;
+  }  
+  .foto img.zoom{
+    transform: scale(1.1);
+  }
