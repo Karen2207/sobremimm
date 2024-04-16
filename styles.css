@@ -100,10 +100,10 @@ header {
   
   .foto img {
 
-    width: 400%;
+    width: 100%;
     display: block;
     position: center;
-    max-width: 150%;
+    max-width: 120%;
     margin-right: auto;
     transition: transform 0.5s ease;
   }  
