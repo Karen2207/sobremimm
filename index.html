@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <script src="https://kit.fontawesome.com/4dd6ad68a4.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +24,15 @@
         </ul>
       </nav>
       <div class="meu-contato">
-        <button>Mídias</button>
-      </div>
+        
+          <div class="sociais">
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-whatsapp"></i></button>
+          </div>
+        
+       
     </div>
+   
   </header>
 
   <div id="formularioContato" style="display: none;"></div>
@@ -33,20 +40,24 @@
   <section class="conteudo">
     <div class="descrição">
       <h2>Karen L.</h2>
-      <p>Ainda haverá algo aqui...(Em andamento)</p>
-    </div>
+      <p>Olá, bem-vindo(a) ao meu portfólio, eu me chamo Karen, tenho 16 anos. Atualmente estou cursando informática no segundo ano do 
+        IFMA (Instituto Federal de Educação, Ciências e
+        Tecnologia do Maranhão.)
 
+      </p>
+    </div>
+       
     <div class="foto">
       <img src="images/sza3.png" alt="foto">
     </div>
   </section>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function(){
-      var images = document.querySelector('.foto img');
-      images.classList.add('zoom');
-    });
-  </script>
 </body>
 </html>
 
+<script>
+     document.addEventListener('DOMContentLoaded', function(){
+      var images = document.querySelector('.foto img');
+      images.classList.add('zoom');
+    });
+</script>
