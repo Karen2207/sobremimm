@@ -1,63 +1,116 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-  <script src="https://kit.fontawesome.com/4dd6ad68a4.js" crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <title>Meu portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Karen</title>
 </head>
+
 <body>
-  <header>
-    <div class="interface">
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo">
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Especialidades</a></li>
-          <li><a href="projetos">Projetos</a></li>
-          <li><a href="formulario.html">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="meu-contato">
-        
-          <div class="sociais">
-            <button><i class="fa-brands fa-instagram"></i></button>
-            <button><i class="fa-brands fa-whatsapp"></i></button>
-          </div>
-        
-       
+
+    <nav>
+        <div class="logo">
+            <img src="/img/kitty logo.png">
+            <a href="#"></a>
+        </div>
+        <div class="nav-links">
+            <a href="#">Início</a>
+            <a href="#">Projetos</a>
+            <a href="#">Especialidades</a>
+            <a href="#">Sobre</a>
+        </div>
+        <button><i class="ri-github-fill"></i> Meus Projetos</button>
+    </nav>
+
+    <div class="hero">
+        <div class="left-section">
+            <div class="top">
+                <h2>Olá, eu me chamo Karen Lopes</h2>
+                <p>
+                   Atualmente cursando Informática 2 no IFMA
+                </p>
+
+                <div class="buttons">
+                    <button class="doc">Sobre mim<i class="ri-arrow-right-line"></i></button>
+                    <button class="git"><i class="ri-github-fill"></i> Meu Github</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Redes sociais</p>
+                <div class="icons">
+                    <i class="ri-whatsapp-line"></i>
+                    <i class="ri-instagram-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <img src="/img/sza linda.png">
+
     </div>
+
+    <div class="about">
+        <p>Minhas especialidades</p>
+        <h2>Aqui abaixo estão as minhas seguintes especialidades.</h2>
+        <div class="items">
+            <div class="item">
+                <div class="inner">
+                    <img src="img/css kitty.png">
+                    <a href="#">...</a>
+                    <p>Descriçao...</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="img/java kitty.png">
+                    <a href="#">...</a>
+                    <p>Descriçao.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="/img/python kitty.png">
+                    <a href="#">...</a>
+                    <p>Descriçao...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="inner">
+            <p class="debug"><i class="ri-command-line"></i>projetos</p>
+            <h2>Projetos</h2>
+            <p class="info">Aqui nessa area estarao os projetos feitos por mim</p>
+            <button>Explore meus projetos <i class="ri-arrow-right-line"></i></button>
+
+            <div class="items">
+                <div class="item">
+                    <i class="ri-planet-line"></i>"></i>
+                    <a href="#">Sistema solar</a>
+                    <p>projeto sistema solar.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-folder-image-fill"></i>"></i>
+                    <a href="#">Imagens e vídeos</a>
+                    <p>projeto imagens e vídeos.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
    
-  </header>
-
-  <div id="formularioContato" style="display: none;"></div>
-
-  <section class="conteudo">
-    <div class="descrição">
-      <h2>Karen L.</h2>
-      <p>Olá, bem-vindo(a) ao meu portfólio, eu me chamo Karen, tenho 16 anos. Atualmente estou cursando informática no segundo ano do 
-        IFMA (Instituto Federal de Educação, Ciências e
-        Tecnologia do Maranhão.)
-
-      </p>
+        </div>
     </div>
-       
-    <div class="foto">
-      <img src="images/sza3.png" alt="foto">
-    </div>
-  </section>
+
+    <footer>
+        <p>email:s.karen@acad.ifma.edu.br</p>
+    </footer>
 
 </body>
-</html>
 
-<script>
-     document.addEventListener('DOMContentLoaded', function(){
-      var images = document.querySelector('.foto img');
-      images.classList.add('zoom');
-    });
-</script>
+</html>
